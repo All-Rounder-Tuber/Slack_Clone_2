@@ -1,6 +1,7 @@
-import React from 'react';
-import './App.css';
-import Header from './Header.js';
+import React from "react";
+import "./App.css";
+import Header from "./Header.js";
+import Sidebar from "./Sidebar.js";
 
 function App() {
   return (
@@ -8,10 +9,12 @@ function App() {
       <h1>Hello Pranshu.... Let's build the Slack Clone &#128640;</h1>
       <span className="fas fa-bars">Hello</span>
 
-      {/* Header */}
       <Header />
-      {/* SideBar */}
-      {/* React Router -> Chat Screen */}
+      <Sidebar />
+      <div className="app_body">
+        {/* SideBar */}
+        {/* React Router -> Chat Screen */}
+      </div>
     </div>
   );
 }
